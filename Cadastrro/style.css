@@ -1,0 +1,82 @@
+/*Reset CSS*/
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(43, 37, 114);
+    background-position: right, top;
+    font-family: arial, sans-serif;
+
+}
+
+.container{
+    background-color: rgb(51, 78, 90);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #b8b8b8;
+    margin-bottom: 30px;
+}
+
+form{
+    text-align: left;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #949393;
+    border-radius: 25px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+button{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: backgroud-color 0.3 ease;
+
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover{
+    background-color: #45a049;
+}
